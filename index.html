@@ -29,6 +29,10 @@
 
   <div class="ln-page">
 
+    <!-- Two Column starts from top -->
+    <div class="ln-cols">
+    <div class="ln-main">
+
     <!-- Profile Card -->
     <div class="ln-card ln-profile-card">
       <div class="ln-cover"></div>
@@ -53,9 +57,6 @@
       </div>
     </div>
 
-    <!-- Two Column -->
-    <div class="ln-cols">
-      <div class="ln-main">
 
         <!-- About -->
         <div class="ln-card" id="about">
@@ -185,12 +186,11 @@
   <!-- Contact Popup -->
   <div class="ln-overlay" id="contactPopup" style="display:none" onclick="toggleContact(event)">
     <div class="ln-popup" onclick="event.stopPropagation()">
-      <div class="ln-popup-head"><h3 data-en="Chris Song" data-zh="宋庆玉">Chris Song</h3><button onclick="toggleContact(event)">&times;</button></div>
+      <div class="ln-popup-head"><h3>Contact info</h3><button onclick="toggleContact(event)">&times;</button></div>
       <div class="ln-popup-body">
-        <div class="ln-popup-row"><span data-en="Email" data-zh="邮箱">Email</span><a href="mailto:chrissong94@protonmail.com">chrissong94@protonmail.com</a></div>
-        <div class="ln-popup-row"><span>GitHub</span><a href="https://github.com/qingyusong94" target="_blank">github.com/qingyusong94</a></div>
-        <div class="ln-popup-row"><span data-en="Website" data-zh="网站">Website</span><a href="https://qingyusong94.github.io">qingyusong94.github.io</a></div>
-        <div class="ln-popup-row"><span data-en="Location" data-zh="地点">Location</span><span data-en="Dalian, China (UTC+8)" data-zh="中国大连 (UTC+8)">Dalian, China (UTC+8)</span></div>
+        <div class="ln-contact-row"><svg width="24" height="24" viewBox="0 0 24 24" fill="#666"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><div><strong>Your profile</strong><br><a href="https://qingyusong94.github.io">qingyusong94.github.io</a></div></div>
+        <div class="ln-contact-row"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg><div><strong>Website</strong><br><a href="https://github.com/qingyusong94" target="_blank">github.com</a> (Personal)</div></div>
+        <div class="ln-contact-row"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg><div><strong>Email</strong><br><a href="mailto:chrissong94@protonmail.com">chrissong94@protonmail.com</a></div></div>
       </div>
     </div>
   </div>
