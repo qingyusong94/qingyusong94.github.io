@@ -23,7 +23,7 @@ body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 
 /* Profile Card */
 .ln-profile-card{padding:0;overflow:hidden}
-.ln-cover{height:200px;background:linear-gradient(135deg,#0a66c2 0%,#004182 50%,#001d3a 100%);position:relative}
+.ln-cover{height:200px;background:url('banner.png') center/cover no-repeat;position:relative}
 .ln-profile-body{padding:0 24px 24px;position:relative}
 .ln-avatar-wrap{position:absolute;top:-68px;left:24px}
 .ln-avatar{width:136px;height:136px;border-radius:50%;border:4px solid var(--white);object-fit:cover;display:block;box-shadow:0 2px 8px rgba(0,0,0,.15)}
