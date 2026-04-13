@@ -110,20 +110,20 @@
         <div class="ln-card" id="projects">
           <h2 data-en="Featured Projects" data-zh="精选项目">Featured Projects</h2>
           <div class="ln-projs lang-en">
-            <div class="ln-proj"><h3>AI Writing Assistant SaaS</h3><p>Next.js + FastAPI + OpenAI + Stripe. 5 weeks.</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>OpenAI</span><span>Stripe</span></div></div>
-            <div class="ln-proj"><h3>RAG Knowledge Base</h3><p>Hybrid search, Pinecone + LangChain. Support 3x faster.</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>FastAPI</span><span>React</span></div></div>
-            <div class="ln-proj"><h3>Cross-Platform Fitness App</h3><p>React Native + Expo. Both stores, 6 weeks.</p><div class="ln-tags"><span>React Native</span><span>Expo</span><span>FastAPI</span></div></div>
-            <div class="ln-proj"><h3>Admin Dashboard & Analytics</h3><p>RBAC, Stripe revenue, automated reports.</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>Stripe</span></div></div>
-            <div class="ln-proj"><h3>Crypto Portfolio Tracker</h3><p>React Native + Solidity + WebSocket.</p><div class="ln-tags"><span>React Native</span><span>Solidity</span><span>WebSocket</span></div></div>
-            <div class="ln-proj"><h3>AI Support Bot</h3><p>RAG + auto-answers + human handoff.</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>WebSocket</span></div></div>
+            <div class="ln-proj" onclick="openProject(1)"><img src="11.png" class="ln-proj-thumb" alt="AI Writing Assistant"><a href="https://xie.infoq.cn/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>AI Writing Assistant SaaS</h3></a><p>Next.js + FastAPI + OpenAI API + Stripe. Wireframe to paying users in 5 weeks.</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>OpenAI</span><span>Stripe</span></div></div>
+            <div class="ln-proj" onclick="openProject(2)"><img src="21.png" class="ln-proj-thumb" alt="RAG Knowledge Base"><a href="https://www.tiangong.cn/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>RAG Knowledge Base</h3></a><p>Hybrid search, Pinecone + LangChain. Support team 3x faster.</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>FastAPI</span><span>React</span></div></div>
+            <div class="ln-proj" onclick="openProject(3)"><img src="31.png" class="ln-proj-thumb" alt="Fitness App"><a href="https://www.keep.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>Cross-Platform Fitness App</h3></a><p>React Native + Expo. Both app stores, 6 weeks.</p><div class="ln-tags"><span>React Native</span><span>Expo</span><span>FastAPI</span></div></div>
+            <div class="ln-proj" onclick="openProject(4)"><img src="41.png" class="ln-proj-thumb" alt="Admin Dashboard"><a href="https://www.metabase.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>Admin Dashboard & Analytics</h3></a><p>RBAC, Stripe revenue tracking, automated reports.</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>Stripe</span></div></div>
+            <div class="ln-proj" onclick="openProject(5)"><img src="51.png" class="ln-proj-thumb" alt="Crypto Tracker"><a href="https://feixiaohao.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>Crypto Portfolio Tracker</h3></a><p>React Native + Solidity + WebSocket real-time.</p><div class="ln-tags"><span>React Native</span><span>Solidity</span><span>WebSocket</span></div></div>
+            <div class="ln-proj" onclick="openProject(6)"><img src="61.png" class="ln-proj-thumb" alt="AI Support Bot"><a href="https://www.sobot.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>AI Customer Support Bot</h3></a><p>RAG + auto-answers + human handoff + analytics.</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>WebSocket</span></div></div>
           </div>
           <div class="ln-projs lang-zh" style="display:none;">
-            <div class="ln-proj"><h3>AI写作助手SaaS</h3><p>Next.js + FastAPI + OpenAI + Stripe。5周。</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>OpenAI</span><span>Stripe</span></div></div>
-            <div class="ln-proj"><h3>RAG知识库</h3><p>混合搜索，Pinecone + LangChain。效率3倍。</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>FastAPI</span><span>React</span></div></div>
-            <div class="ln-proj"><h3>跨平台健身App</h3><p>React Native + Expo。6周上架。</p><div class="ln-tags"><span>React Native</span><span>Expo</span><span>FastAPI</span></div></div>
-            <div class="ln-proj"><h3>管理面板</h3><p>RBAC、Stripe收入、自动报表。</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>Stripe</span></div></div>
-            <div class="ln-proj"><h3>加密货币追踪器</h3><p>React Native + Solidity + WebSocket。</p><div class="ln-tags"><span>React Native</span><span>Solidity</span><span>WebSocket</span></div></div>
-            <div class="ln-proj"><h3>AI客服机器人</h3><p>RAG + 自动回答 + 人工转接。</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>WebSocket</span></div></div>
+            <div class="ln-proj" onclick="openProject(1)"><img src="11.png" class="ln-proj-thumb" alt="AI写作助手"><a href="https://xie.infoq.cn/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>AI写作助手SaaS</h3></a><p>Next.js + FastAPI + OpenAI API + Stripe。5周上线。</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>OpenAI</span><span>Stripe</span></div></div>
+            <div class="ln-proj" onclick="openProject(2)"><img src="21.png" class="ln-proj-thumb" alt="RAG知识库"><a href="https://www.tiangong.cn/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>RAG知识库</h3></a><p>混合搜索，Pinecone + LangChain。客服效率3倍。</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>FastAPI</span><span>React</span></div></div>
+            <div class="ln-proj" onclick="openProject(3)"><img src="31.png" class="ln-proj-thumb" alt="健身App"><a href="https://www.keep.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>跨平台健身App</h3></a><p>React Native + Expo。6周上架。</p><div class="ln-tags"><span>React Native</span><span>Expo</span><span>FastAPI</span></div></div>
+            <div class="ln-proj" onclick="openProject(4)"><img src="41.png" class="ln-proj-thumb" alt="管理面板"><a href="https://www.metabase.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>管理面板&数据分析</h3></a><p>RBAC、Stripe收入追踪、自动报表。</p><div class="ln-tags"><span>Next.js</span><span>FastAPI</span><span>Stripe</span></div></div>
+            <div class="ln-proj" onclick="openProject(5)"><img src="51.png" class="ln-proj-thumb" alt="加密货币追踪"><a href="https://feixiaohao.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>加密货币组合追踪器</h3></a><p>React Native + Solidity + WebSocket实时。</p><div class="ln-tags"><span>React Native</span><span>Solidity</span><span>WebSocket</span></div></div>
+            <div class="ln-proj" onclick="openProject(6)"><img src="61.png" class="ln-proj-thumb" alt="AI客服"><a href="https://www.sobot.com/" target="_blank" class="ln-proj-title" onclick="event.stopPropagation()"><h3>AI客服聊天机器人</h3></a><p>RAG + 自动回答 + 人工转接 + 分析面板。</p><div class="ln-tags"><span>LangChain</span><span>Pinecone</span><span>WebSocket</span></div></div>
           </div>
         </div>
 
@@ -169,6 +169,19 @@
     </div>
   </div>
 
+  <!-- Project Popup -->
+  <div class="ln-overlay" id="projectPopup" style="display:none" onclick="closeProject(event)">
+    <div class="ln-popup ln-proj-popup" onclick="event.stopPropagation()">
+      <div class="ln-popup-head"><h3 id="projPopupTitle"></h3><button onclick="closeProject(event)">&times;</button></div>
+      <div class="ln-popup-body">
+        <div id="projPopupImages" class="ln-proj-images"></div>
+        <p id="projPopupDesc"></p>
+        <div id="projPopupTags" class="ln-tags" style="margin-top:12px"></div>
+        <p id="projPopupRole" style="margin-top:8px;font-size:13px;color:#057642;font-weight:500"></p>
+      </div>
+    </div>
+  </div>
+
   <!-- Contact Popup -->
   <div class="ln-overlay" id="contactPopup" style="display:none" onclick="toggleContact(event)">
     <div class="ln-popup" onclick="event.stopPropagation()">
@@ -183,6 +196,27 @@
   </div>
 
   <script>
+  var projects={
+    1:{en:{title:"AI Writing Assistant SaaS",desc:"Full-stack AI SaaS product for a startup founder. Next.js front-end, FastAPI backend, OpenAI API for content generation, Stripe subscription billing, user auth, usage tracking, admin dashboard. Wireframe to live product with paying users in 5 weeks.",role:"Solo developer — architecture, frontend, backend, deployment",tags:["Next.js","FastAPI","OpenAI API","Stripe","PostgreSQL","Docker"]},zh:{title:"AI写作助手SaaS",desc:"为初创公司创始人构建的全栈AI SaaS产品。Next.js前端、FastAPI后端、OpenAI API内容生成、Stripe订阅计费、用户认证、用量追踪、管理面板。从线框图到付费用户上线仅5周。",role:"独立开发——架构、前端、后端、部署",tags:["Next.js","FastAPI","OpenAI API","Stripe","PostgreSQL","Docker"]},imgs:["11.png","12.png","13.png"]},
+    2:{en:{title:"RAG Knowledge Base for Fintech",desc:"Document Q&A system with hybrid search (semantic + keyword) for a fintech startup. Users upload documents, system chunks and indexes them in Pinecone, then provides accurate answers through a React chat interface. LangChain orchestration, FastAPI backend. Support team answers client questions 3x faster.",role:"Solo developer — RAG pipeline, backend, frontend, deployment",tags:["LangChain","Pinecone","FastAPI","React","PostgreSQL"]},zh:{title:"金融科技RAG知识库",desc:"为金融科技初创公司构建的文档问答系统，支持混合搜索（语义+关键词）。用户上传文档，系统自动分块并在Pinecone中索引，通过React聊天界面提供精准回答。LangChain编排、FastAPI后端。客服团队回答客户问题效率提升3倍。",role:"独立开发——RAG管线、后端、前端、部署",tags:["LangChain","Pinecone","FastAPI","React","PostgreSQL"]},imgs:["21.png","22.png"]},
+    3:{en:{title:"Cross-Platform Fitness App",desc:"Cross-platform mobile app built with React Native + Expo for iOS and Android. AI-powered workout recommendations, progress tracking, push notifications, in-app purchases. FastAPI backend, PostgreSQL database. One codebase running on both platforms. Delivered to both app stores in 6 weeks.",role:"Full-stack mobile developer — app development, backend API, deployment",tags:["React Native","Expo","FastAPI","PostgreSQL","OpenAI API","Docker"]},zh:{title:"跨平台健身App",desc:"用React Native + Expo构建的跨平台移动应用，同时支持iOS和Android。AI智能训练推荐、进度追踪、推送通知、应用内购买。FastAPI后端、PostgreSQL数据库。一套代码，两个平台。6周内上架两个应用商店。",role:"全栈移动开发——App开发、后端API、部署",tags:["React Native","Expo","FastAPI","PostgreSQL","OpenAI API","Docker"]},imgs:["31.png","32.png","33.png"]},
+    4:{en:{title:"Startup Admin Dashboard & Analytics",desc:"Full-stack admin dashboard and analytics platform built as a SaaS add-on for startup products. User management with role-based access control, real-time usage metrics, revenue tracking (Stripe integration), customer segmentation, and automated reporting. React/Next.js frontend with interactive charts, FastAPI backend, PostgreSQL with materialized views for fast aggregation.",role:"Solo developer — architecture, frontend, backend, Stripe integration, deployment",tags:["Next.js","FastAPI","PostgreSQL","Stripe","Redis","Docker"]},zh:{title:"创业公司管理面板&数据分析",desc:"为初创公司产品构建的全栈管理面板和数据分析平台（SaaS附加模块）。基于角色的用户管理、实时使用指标、收入追踪（Stripe集成）、客户分群和自动化报表。React/Next.js前端配交互式图表，FastAPI后端，PostgreSQL物化视图实现快速聚合。",role:"独立开发——架构、前端、后端、Stripe集成、部署",tags:["Next.js","FastAPI","PostgreSQL","Stripe","Redis","Docker"]},imgs:["41.png","42.png","43.png"]},
+    5:{en:{title:"Crypto Portfolio Tracker",desc:"Cross-platform mobile app built with React Native for iOS and Android. Real-time cryptocurrency price feeds, portfolio analytics, transaction history, and Solidity smart contract integration for DeFi features. FastAPI backend with WebSocket connections for live data. Single codebase running on both platforms.",role:"Full-stack mobile developer — app, backend, smart contracts, deployment",tags:["React Native","FastAPI","Solidity","PostgreSQL","WebSocket","Docker"]},zh:{title:"加密货币组合追踪器",desc:"用React Native构建的跨平台移动应用，同时支持iOS和Android。实时加密货币价格推送、投资组合分析、交易历史记录，以及Solidity智能合约集成实现DeFi功能。FastAPI后端通过WebSocket提供实时数据。一套代码运行在两个平台。",role:"全栈移动开发——App、后端、智能合约、部署",tags:["React Native","FastAPI","Solidity","PostgreSQL","WebSocket","Docker"]},imgs:["51.png","52.png"]},
+    6:{en:{title:"AI Customer Support Chatbot",desc:"AI-powered customer support chatbot for a SaaS startup. Trained on product documentation using RAG (LangChain + Pinecone). Handles common questions autonomously, escalates complex issues to human agents with full conversation context. React chat widget embeddable in any website, FastAPI backend, conversation analytics dashboard showing resolution rates and response times.",role:"Solo developer — RAG pipeline, chat UI, backend, analytics dashboard",tags:["LangChain","Pinecone","FastAPI","React","PostgreSQL","WebSocket"]},zh:{title:"AI客服聊天机器人",desc:"为SaaS初创公司构建的AI客服聊天机器人。基于RAG（LangChain + Pinecone）在产品文档上训练。自主处理常见问题，复杂问题自动转接人工客服并携带完整对话上下文。React聊天组件可嵌入任何网站，FastAPI后端，对话分析面板展示解决率和响应时间。",role:"独立开发——RAG管线、聊天界面、后端、分析面板",tags:["LangChain","Pinecone","FastAPI","React","PostgreSQL","WebSocket"]},imgs:["61.png","62.png","63.png"]}
+  };
+  function openProject(id){
+    var p=projects[id],l=currentLang,d=p[l];
+    document.getElementById('projPopupTitle').textContent=d.title;
+    document.getElementById('projPopupDesc').textContent=d.desc;
+    document.getElementById('projPopupRole').textContent=d.role;
+    var imgs=document.getElementById('projPopupImages');
+    imgs.innerHTML=p.imgs.map(function(s){return '<img src="'+s+'" class="ln-proj-full-img" alt="">';}).join('');
+    var tags=document.getElementById('projPopupTags');
+    tags.innerHTML=d.tags.map(function(t){return '<span>'+t+'</span>';}).join('');
+    document.getElementById('projectPopup').style.display='flex';
+  }
+  function closeProject(e){e.preventDefault();document.getElementById('projectPopup').style.display='none';}
+
   let currentLang=localStorage.getItem('lang')||'en';
   function setLang(l){currentLang=l;localStorage.setItem('lang',l);document.querySelectorAll('.lang-en').forEach(e=>e.style.display=l==='en'?'':'none');document.querySelectorAll('.lang-zh').forEach(e=>e.style.display=l==='zh'?'':'none');document.querySelectorAll('[data-en][data-zh]').forEach(e=>e.textContent=l==='en'?e.dataset.en:e.dataset.zh);document.getElementById('lang-en-btn').classList.toggle('active',l==='en');document.getElementById('lang-zh-btn').classList.toggle('active',l==='zh');}
   function toggleContact(e){e.preventDefault();var p=document.getElementById('contactPopup');p.style.display=p.style.display==='none'?'flex':'none';}
