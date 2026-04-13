@@ -11,9 +11,11 @@ body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 /* Nav */
 .ln-nav{position:sticky;top:0;background:var(--white);box-shadow:0 1px 2px rgba(0,0,0,.1);z-index:50;height:52px}
 .ln-nav-inner{max-width:1128px;margin:0 auto;padding:0 16px;height:100%;display:flex;align-items:center;gap:16px}
-.ln-nav-links{display:flex;gap:4px;margin-left:auto}
-.ln-nav-links a{text-decoration:none;color:var(--sub);font-size:13px;font-weight:500;padding:6px 12px;border-radius:16px;transition:.15s}
-.ln-nav-links a:hover{color:var(--text);background:var(--tag-bg)}
+.ln-nav-links{display:flex;gap:0;margin-left:auto}
+.ln-nav-item{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;color:var(--sub);font-size:11px;font-weight:500;padding:4px 16px;transition:.15s;border-bottom:2px solid transparent}
+.ln-nav-item:hover{color:var(--text)}
+.ln-nav-item:hover svg{fill:var(--text)}
+.ln-nav-item span{line-height:1}
 
 /* Page Container */
 .ln-page{max-width:1128px;margin:0 auto;padding:16px 16px 0}
@@ -149,5 +151,5 @@ body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   .ln-profile-row{padding-top:60px}
   .ln-cover{height:150px}
   .ln-projs{grid-template-columns:1fr}
-  .ln-nav-links a{font-size:12px;padding:4px 8px}
+  .ln-nav-item{padding:4px 8px}.ln-nav-item span{display:none}
 }
